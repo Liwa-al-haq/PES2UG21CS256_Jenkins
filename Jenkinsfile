@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Display') {
       steps {
-        echo 'Deploy'
+        sh 'exit 1'
       }
     }
   }
